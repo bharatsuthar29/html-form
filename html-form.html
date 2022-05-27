@@ -1,0 +1,136 @@
+    <html>
+    <head>
+        <tital>college form</tital>
+   
+      <link rel="stylesheet" type="text/css" href="Demo.css">
+
+   <!--    <style type="text/css">
+            label {
+                color:red;
+            }
+            lebel{
+                color:blue;
+            }
+            lebal{
+                color:orange;
+            }
+            
+
+        </style>
+    --> 
+        <style>
+            #first{
+                 position:relative;
+                 left: 450px;
+                 margin: 1px 15px;
+                 background-color:red;
+                 heidht:20px;
+                 width: 190px;
+                 
+            }     
+            .second {   
+              border-color:brown;
+                border-width: 4px;
+                border-style: dashed;
+                border-radius: 3px;   
+              
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover { 
+                background: bisque;
+                color:red;
+            } 
+               
+            
+        </style>
+    </head>
+
+ <body>
+        <h2 id="first">CIT college form</h2><br>
+        
+        <form>
+            <fieldset class="second" >
+                     <legend><mark>student's details</mark></legend>
+                 
+                     <label>&nbsp First Name:
+                        <input type="text" name="firstname" placeholder="Enter your first name"><br><br>
+
+                        &nbsp  Last Name:
+                        <input type="text" name="lastname" placeholder="Enter your last name"><br><br>
+                        &nbsp  Father Name:
+                       <input type="text" name="fathername" placeholder="Enter your father name"><br><br>
+                       &nbsp  Mother Name:
+                        <input type="text" name="mothername" placeholder="Enter your mother name"><br><br>
+                        &nbsp  DOB: 
+                        <input type="date" name="dob"><br><br>
+                        &nbsp E-mail:
+                        <input type="e-mail" placeholder="E-mail"><br><br>
+                        &nbsp  Mobile no.:</label>
+                        <input type="number" placeholder="Mobail no."><br><br>
+
+                        
+                       <label>Age:</label><br>
+                        <input type="radio" name="age" checked>under18
+                        <input type="radio" name="age">above18<br><br>
+                         
+                        <label for="course">course:</label>
+                        <select name="mycourse" id="course">
+                            
+                            <option value="B.tech">B.tech</option>
+                            <option value="bsc">Bsc</option>
+                            <option value="MBA">MBA</option>
+                            <option value="M.tech">M.tech</option>
+                            <option value="B.com">B.com</option>
+                            <option value="ma">ma</option>
+                        </select><br><br>
+
+                     <lebal>  Hobby:</lebal>
+                            <input type="checkbox" name="cricket">cricket
+                            <input type="checkbox" name="football" >football
+                            <input type="checkbox" name="hockey">hockey<br><br>
+
+                      <lebel>Aadhar No.:   
+                            <input type="number" name="aadharno"><br><br>
+                        State:
+                            <input type="name" name="state">
+                        District:
+                            <input type="name" name="district">
+                        City/Village: 
+                            <input type="name" name="city/village"><br><br>   
+                        Pincode:
+                            <input type="number" name="number"><br><br>
+                        Location:
+                            <input type="location" name="location"><br><br>
+                        Address:
+                            <input type="address" name="address"><br><br>                 
+                        Password:</lebel>
+                            <input type="password" name="password"><br><br>
+   <hr>
+            <fieldset>
+                    <legend><mark> basic details</mark></legend>
+                      <lebal> State:
+                          <input type="name" name="state">
+                      District:
+                          <input type="name" name="district">
+                      City/Village:
+                           <input type="name" name="city/village"><br><br>
+                      Pincode:
+                           <input type="number" name="pincode"><br><br>
+                      Date:
+                           <input type="date" name="date" ><br><br>   
+                      Address:</lebal>
+                          <textarea name="address" cols="50" rows="1"></textarea><br><br>
+                        
+                     
+            </fieldset>
+                        <input type="reset">
+                        <input type="submit"><br><br>
+                     <a href="http://www.google.com" >google.com</a>
+                       
+            </fieldset>
+       
+        </form>
+ </body>
+</html>
